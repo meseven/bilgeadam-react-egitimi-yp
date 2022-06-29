@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.App.dark {
+  background-color: #282c34;
+  color: white;
+}
+
+select {
+  padding: 5px;
+  margin-left: 10px;
+}

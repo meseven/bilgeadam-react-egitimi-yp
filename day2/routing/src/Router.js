@@ -1,15 +1,17 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// pages
-import Home from "./pages/Home";
-import Users from "./pages/Users";
-import Contact from "./pages/Contact";
-import UserDetail from "./pages/UserDetail";
-import Error404 from "./pages/Error404";
+// layouts
 import DashboardLayout from "./layouts/Dashboard";
 import AuthLayout from "./layouts/Auth";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+
+// pages
+import Home from "./pages/Dashboard/Home";
+import Users from "./pages/Dashboard/Users";
+import Contact from "./pages/Dashboard/Contact";
+import UserDetail from "./pages/Dashboard/UserDetail";
+import Error404 from "./pages/Error404";
+import Login from "./pages/Auth/Login";
+import Register from "./pages/Auth/Register";
 
 function Router() {
   return (

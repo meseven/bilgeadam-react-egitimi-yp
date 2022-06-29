@@ -52,7 +52,7 @@ a:hover {
 .form input {
   width: 380px;
   padding: 10px;
-  border: solid 1px #ddd;
+  border: solid 1px #dddddd;
   border-radius: 5px;
   margin-bottom: 6px;
   font-size: 1rem;
@@ -61,4 +61,23 @@ a:hover {
 .form button {
   padding: 5px 10px;
   cursor: pointer;
+}
+
+.form textarea {
+  width: 400px;
+  font-size: 1rem;
+  border: solid 1px #dddddd;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 60px;
+}
+
+.error {
+  display: block;
+  color: red;
+  padding-bottom: 20px;
+}
+
+select {
+  padding: 10px;
 }
